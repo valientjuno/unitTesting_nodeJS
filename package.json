@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha './lib/**/*.test.js'"
+    "test": "cross-env NODE_ENV=development mocha './lib/**/*.test.js'"
   },
   "devDependencies": {
-    "chai": "^6.2.2"
+    "chai": "^6.2.2",
+    "cross-env": "^10.1.0"
   }
 }
