@@ -1,6 +1,10 @@
 {
+  "name": "unitTesting_nodeJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha './lib/**/*.test.js'"
   },
   "devDependencies": {
     "chai": "^6.2.2"
